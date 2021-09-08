@@ -2,47 +2,10 @@
 
 For this project, we are using the Zomato API. Zomato APIs give you access to the freshest and most exhaustive information for over 1.5 million restaurants across 10,000 cities globally.
 
-## Our Motivation for using Zomato API
+## Motivation for using Zomato API
 
 By Collecting the data using Zomato API one can recommend restaurants on the basis of user’s affinity to specific cuisines, establishment types, locations, and price bands.
 We can find out whether restaurant support online reservation or not. We can find what is the most popular and/ or exclusive/new at a given location & time.
-
-### A. Zomato cuisine problem details
-
-Mexican cuisine began about 9,000 years ago, when agricultural communities such as the Maya formed, domesticating maize, creating the standard process of corn nixtamalization, and establishing their foodways. You are a huge fan of ‘Mexican’ cuisine. Now using the Zomato API you want to analyse the best restaurant serving the Mexican Cuisine, their locations, and cost for two, etc.
-
-#### Problem Statement
-
-1. Fetch the cuisine_id of ‘Mexican’ cuisine using Zomato API. Print the cuisine_id.
-2. Fetch the entityid and entitytype of place Connaught Place. Print the entityid and entitytype,
-3. Fetch the top 10 best-rated restaurant serving ‘Mexican’ cuisine present in Connaught Place. Print the restaurant name, user rating and restaurant id.
-4. Fetch the category id of category type ‘Cafes’ using Zomato API. Print the category_id.
-5. Fetch the best-rated restaurant for ‘Mexican’ cuisine with category type ‘ Cafes’ present in Connaught Place using Zomato API. Print the restaurant name, user rating and restaurant id.
-6. Fetch the latest review of the best-rated restaurant for ‘Mexican’ cuisine with Category type ‘Cafes’ present in Connaught Place using Zomato API. Print the name of user ,user rating and review text.
-
-### B. Zomato restaurant Problem Detail
-
-"Pa Pa Ya" is a modern Asian bistro & tapas bar from the House of Massive Restaurants and best described as a chic, modern and radical reinterpretation of Asian cuisine.
-You have heard from your friends that restaurant "Pa Pa Ya" in Delhi is quite good. So now you want to extract the information related to "Pa Pa Ya" using Zomato API.
-
-#### Problem Statement
-
-1. Fetch the details of "Pa Pa Ya" restaurant (ID: 18429148) using Zomato API. Print the user rating, the average cost for two, cuisines and address of "Pa Pa Ya" restaurant.
-2. Find out whether online table reservation is supported in "Pa Pa Ya" restaurant or not using Zomato API. Print 'yes' if online table reservation is supported else 'no'.
-3. Fetch the latest review of "Pa Pa Ya" restaurant using Zomato API. Print the name of the user, user rating and review text.
-
-### C. Zomato Distance Problem 
-
-Distance is also a very important factor while selecting a restaurant. Suppose you are at Coding Ninjas and you want to select the restaurant which is near to you using Zomato API. Note down the latitude and longitude of Coding Ninjas using Google Maps.
-
-#### Problem Statement
-
-1. Fetch the cuisine_id of of cuisine ‘BBQ’ using Zomato API. Print the cuisine_id.
-2. Fetch the list of the top 10 restaurants serving cuisine ‘BBQ’ which are nearest to Coding Ninjas. Print the restaurant name, user rating, restaurant id and locality in which restaurant is present.
-3. Fetch the latest review of the restaurant serving cuisine ‘BBQ’ which is most nearest to Coding ninjas? Print the name of user ,user rating and review text.
-4. Experiment with the radius parameter that is present in ‘GET/search’. Fetch the list of top 10 best-restaurant present in a radius of 4 km of coding ninjas. Print the restaurant name, user rating, restaurant id and locality in which restaurant is present.
-5. Compare the location of the restaurant whether really they are in a distance of 4 km to Coding Ninjas. Find out whether these API radius feature is working or not. Print 'yes' if radius feature work else print 'no'.
-
 
 
 
